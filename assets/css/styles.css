@@ -1,0 +1,91 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica;
+  background-color: #dddddd;
+  color: #777777;
+  margin: 0;
+}
+
+h1, h2, h3, h5, h5 {
+  font-family: Georgia;
+}
+
+.site {
+  flex: 1;
+}
+
+/* Header Styles */
+header {
+  background-color: #ffffff;
+  border-bottom: 2px solid #cccccc;
+  font-family: 
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav h2 {
+  display: inline-block;
+  background-color: #4aaaa5;
+  padding: 20px;
+  color: white;
+}
+
+nav ul li {
+  padding: 20px;
+}
+
+/* content body styles */
+
+.about-me h2 {
+  display: inline-block;
+  color: #4aaaa5;
+}
+
+.about-me .container {
+  max-width: 960px;
+  margin: 50px auto;
+  border: 1px solid #dddddd;;
+  padding: 32px;
+  background-color: white;
+}
+
+.about-me .content-body .text-content {
+  width: 400px;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.about-me .content-body {
+   display: flex;
+   margin-top: 40px;
+}
+
+.about-me hr {
+  height: 1px;
+  color: #dddddd;
+  background-color: #dddddd;
+  border: none;
+}
+
+
+/* Footer Styles */
+footer .container {
+  background-color: gray;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
