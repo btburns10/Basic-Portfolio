@@ -1,0 +1,56 @@
+body {
+  font-family: Helvetica;
+  background-color: #EFEFEF;
+  margin: 0;
+}
+
+/* Header Styles */
+
+header {
+  background-color: steelblue;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 20px;
+  color: white;
+}
+
+/* content body styles */
+
+.about-me .container {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 50px auto;
+  border: 1px solid lightgrey;
+  padding: 32px;
+  background-color: white;
+}
+
+/* Footer Styles */
+footer .container {
+  background-color: gray;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
