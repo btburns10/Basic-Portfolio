@@ -34,6 +34,17 @@ nav {
   align-items: center;
 }
 
+nav a {
+  color: #777777;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: rgb(240, 240, 240);
+  opacity: 0.7;
+}
+
 nav h2 {
   display: inline-block;
   background-color: #4aaaa5;
@@ -49,7 +60,7 @@ nav ul li:not(:last-child) {
   border-right: 1px solid #dddddd;
 }
 
-/* content body styles */
+/* About Me content body styles */
 
 .about-me h2 {
   display: inline-block;
@@ -66,10 +77,10 @@ nav ul li:not(:last-child) {
 
 .about-me .content-body .text-content {
   width: 400px;
-  font-size: 18px;
-  letter-spacing: 1.2px;
+  font-size: 16px;
+  letter-spacing: 1.1px;
   line-height: 22px;
-  padding: 0 30px;
+  padding: 0 40px;
 }
 
 .about-me .content-body {
@@ -83,6 +94,30 @@ nav ul li:not(:last-child) {
   background-color: #dddddd;
   border: none;
 }
+
+/* Contact content body styles */
+
+.contact .container {
+  max-width: 680px;
+  margin: 50px auto;
+  border: 1px solid #dddddd;;
+  padding: 32px;
+  background-color: white;
+}
+.contact .container form div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .container form input, textarea {
+  font-size: 16px;
+  border: 1px solid #dddddd;
+}
+
+.contact .container form input:focus, textarea:focus {
+  outline: none;
+} 
 
 
 /* Footer Styles */
