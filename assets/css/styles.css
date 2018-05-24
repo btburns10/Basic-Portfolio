@@ -22,6 +22,11 @@ hr {
   border: none;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* Header Styles */
 header {
   background-color: #ffffff;
@@ -43,8 +48,6 @@ nav {
 }
 
 nav a {
-  color: #777777;
-  text-decoration: none;
   padding: 10px;
 }
 
@@ -188,7 +191,6 @@ nav ul li:not(:last-child) {
   color: white;
   padding: 15px 0;
   font-size: 18px;
-  text-decoration: none;
 }
 
 .portfolio .portfolio-img a:hover {
@@ -205,8 +207,12 @@ footer .container {
   background-color: #666666;
   height: 60px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   color: white;
+}
+
+footer i {
+  margin: 0 10px;
 }
 
