@@ -26,7 +26,6 @@ hr {
 header {
   background-color: #ffffff;
   border-bottom: 2px solid #cccccc;
-  font-family: 
 }
 
 header .container {
@@ -37,8 +36,10 @@ header .container {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 nav a {
@@ -56,7 +57,8 @@ nav a:hover {
 nav h2 {
   display: inline-block;
   background-color: #4aaaa5;
-  padding: 20px;
+  padding: 3.2%;
+  margin: 0;
   color: white;
 }
 
@@ -69,6 +71,10 @@ nav ul li:not(:last-child) {
 }
 
 /* About Me content body styles */
+.about-me {
+  max-width: 960px;
+  margin: 50px auto;
+}
 
 .about-me h2 {
   display: inline-block;
@@ -76,8 +82,6 @@ nav ul li:not(:last-child) {
 }
 
 .about-me .container {
-  max-width: 960px;
-  margin: 50px auto;
   border: 1px solid #dddddd;;
   padding: 32px;
   background-color: white;
@@ -94,6 +98,10 @@ nav ul li:not(:last-child) {
 .about-me .content-body {
    display: flex;
    margin-top: 40px;
+}
+
+.about-me img {
+  border-radius: 5px;
 }
 
 /* Contact content body styles */
